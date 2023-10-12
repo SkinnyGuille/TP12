@@ -54,11 +54,11 @@ public class TP12 {
 //            System.out.println("listado ordenado");
             
             //Dar de baja al primer empleado ingresado a la base de datos.
-         String sql4 = "DELETE FROM empleado WHERE empleado.idempleado = 1";
- PreparedStatement ps1 = conexion.prepareStatement(sql4);
-       int empleado =ps1.executeUpdate();
-        System.out.println(empleado);
-            System.out.println("se a eliminado el empleado");
+//         String sql4 = "DELETE FROM empleado WHERE empleado.idempleado = 1";
+// PreparedStatement ps1 = conexion.prepareStatement(sql4);
+//       int empleado =ps1.executeUpdate();
+//        System.out.println(empleado);
+//            System.out.println("se a eliminado el empleado");
           
 
             
